@@ -1,0 +1,141 @@
+background
+aeroplane
+bag
+bed
+bedclothes
+bench
+bicycle
+bird
+boat
+book
+bottle
+building
+bus
+cabinet
+car
+cat
+ceiling
+chair
+cloth
+computer
+cow
+cup
+curtain
+dog
+door
+fence
+floor
+flower
+food
+grass
+ground
+horse
+keyboard
+light
+motorbike
+mountain
+mouse
+person
+plate
+platform
+pottedplant
+road
+rock
+sheep
+shelves
+sidewalk
+sign
+sky
+snow
+sofa
+table
+track
+train
+tree
+truck
+tvmonitor
+wall
+water
+window
+wood 
+black
+light blue
+blue
+dark blue
+light brown
+brown
+dark brown
+light green
+green
+dark green
+light grey
+grey
+dark grey
+light orange
+orange
+dark orange
+light pink
+pink
+dark pink
+light purple
+purple
+dark purple
+light red
+red
+dark red
+white
+light yellow
+yellow
+dark yellow
+plain
+striped
+dotted
+checkered
+woven
+studded
+perforated
+floral
+logo
+text
+stone
+wood
+rattan
+fabric
+crochet
+wool
+leather
+velvet
+metal
+paper
+plastic
+glass
+ceramic
+opaque
+translucent
+transparent
+vehicle
+outdoor
+animal
+accessory
+sports
+kitchen
+food
+furniture
+electronic
+appliance
+indoor
+water
+ground
+solid
+sky
+structural
+building
+food
+textile
+window
+floor
+ceiling
+wall
+rawmaterial
+plant
+person

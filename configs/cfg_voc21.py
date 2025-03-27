@@ -10,7 +10,7 @@ model = dict(
 
 # dataset settings
 dataset_type = 'PascalVOCDataset'
-data_root = '/SHARE_ST/icl/Neurips2024/zeroseg_kdu_khy/data/VOCdevkit/VOC2012'
+data_root = 'your/path/to/dataset' # TODO 
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),

@@ -9,7 +9,7 @@ model = dict(
 
 # dataset settings
 dataset_type = 'COCOObjectDataset'
-data_root = ''
+data_root = 'your/path/to/dataset' # TODO 
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),

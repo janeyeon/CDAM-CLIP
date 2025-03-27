@@ -140,7 +140,6 @@ animal
 accessory
 sports
 kitchen
-food
 furniture
 electronic
 appliance

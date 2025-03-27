@@ -40,7 +40,7 @@ class CLIPForSegmentation(BaseSegmentor):
         super().__init__(data_preprocessor=data_preprocessor)
         self.net, _ = clip.load(clip_path, device=device, jit=False)
         
-        num = 81
+        num = 80
         
         
         
@@ -131,7 +131,7 @@ class CLIPForSegmentation(BaseSegmentor):
                 kl_temp_weight = torch.zeros(12,w_attn*h_attn + 1, w_attn*h_attn + 1, dtype=torch.float16).to(self.device) 
                 
                 
-            kl_sizes = [0.25, 0.37, 0.5, 0.75, 0.65, 0.87]
+            kl_sizes = [0.25, 0.37, 0.5, 0.63, 0.75, 0.87]
             
             kl_size_w = [int(w_attn*size) for size in kl_sizes]
             kl_size_h = [int(h_attn*size) for size in kl_sizes]

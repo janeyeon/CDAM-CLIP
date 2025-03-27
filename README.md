@@ -11,11 +11,11 @@
 
 **Observation for similarity of class distributions between patches:**
 
-![sclip_0](assets/distance.png)
+![cdam_0](assets/distance.png)
 
 **Qualitative segmentation results of CDAM from inaccurate initial predictions:**
 
-![sclip_1](assets/results.png)
+![cdam_1](assets/results.png)
 
 
 
@@ -52,6 +52,13 @@ python datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO164K
 ```
 python eval.py --config ./configs/cfg_DATASET.py --workdir YOUR_WORK_DIR
 ```
+
+
+## Quantitative Results
+
+![cdam_1](assets/quant.png)
+
+
 
 ## Citation
 ```

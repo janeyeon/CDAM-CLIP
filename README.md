@@ -1,9 +1,9 @@
-# [ICLR25] CDAM-CLIP: Class Distribution-induced Attention Map for Open-vocabulary Semantic Segmentations
+# [ICLR25] CDAM: Class Distribution-induced Attention Map for Open-vocabulary Semantic Segmentations
 
-**Official PyTorch implementation of CDAM-CLIP**
+**Official PyTorch implementation of CDAM**
 
 
-* [CDAM-CLIP: Class Distribution-induced Attention Map for Open-vocabulary Semantic Segmentations](https://arxiv.org/pdf/2312.01597.pdf).
+* [CDAM: Class Distribution-induced Attention Map for Open-vocabulary Semantic Segmentations](https://openreview.net/pdf?id=CMqOfvD3tO).
 * Proposing class distribution-induced attention map (CDAM) that yields higher weights to class-relevant patches to enhance localization capability by exploiting **robust class distribution** over **noisy class prediction** for the patches of each object class. 
 *  Proposing CDAM with multi-scale image patches, augmented text prompts, and entropy-based background thresholding for further improving the CDAM.
 * Demonstrating that our CDAM remarkably outperformed prior arts on CLIP-based training-free zero-shot semantic segmentation over diverse benchmark datasets.
@@ -23,7 +23,7 @@
 
 ## Dependencies
 
-This repo is built on top of [CLIP](https://github.com/openai/CLIP), [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [SCLIP](https://github.com/wangf3014/SCLIP/blob/main/README.md). To run CDAM-CLIP, please install the following packages with your Pytorch environment. We recommend using Pytorch==1.9.x for better compatibility to the following MMSeg version.
+This repo is built on top of [CLIP](https://github.com/openai/CLIP), [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [SCLIP](https://github.com/wangf3014/SCLIP/blob/main/README.md). To run CDAM, please install the following packages with your Pytorch environment. We recommend using Pytorch==1.9.x for better compatibility to the following MMSeg version.
 
 ```
 conda create -n cdamclip python=3.9
@@ -47,10 +47,18 @@ python datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO164K
 
 
 
-## Run CDAM-CLIP
+## Run CDAM
 
 ```
 python eval.py --config ./configs/cfg_DATASET.py --workdir YOUR_WORK_DIR
 ```
 
-
+## Citation
+```
+@inproceedings{kangclass,
+  title={Class Distribution-induced Attention Map for Open-vocabulary Semantic Segmentations},
+  author={Kang, Dong Un and Kim, Hayeon and Chun, Se Young},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
+```
